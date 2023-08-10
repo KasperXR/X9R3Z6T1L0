@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SlideParts
+  - Plane
+  - Replacer
+  - Buttons
+  - Nuts
+  - GUI
+  - Curved
+  - Straight
+  - Window
+  - Standard
+  - LineLayer
+  - SnapPoint
+  - Beam
+  - Pole
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - SnappedObjects
+  - Water
+  - UI
+  - DraggedObject
+  - SelectedObject
+  - Plane
+  - LineLayer
+  - A4
+  - AreaBox
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

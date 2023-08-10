@@ -1,0 +1,1976 @@
+{
+	"myGameObject" : {
+		"__type" : "GameObject",
+		"value" : {
+			"_ES3Ref" : "8438538780464233926",
+			"es3Prefab" : {
+				"prefabId" : "1780402736884289875",
+				"refs" : {"7053530495476612741":"3482051332743516713","5014978801968933514":"8438538780464233926","2453210328718677066":"73188005547895585","2300026877369668279":"2161890485359989260","1576571337206696666":"3075680502258014864","8433345256166932996":"1545246617468517689","568737621308332410":"8319081134415364570","2314739932156076467":"1591616202641059217","3418849986065360938":"7641276910931086197","8452944787045450418":"7971592345520720577","7708293190893240905":"4489901268736260945","7521458359879486574":"2866453018894730141","6089492852708732194":"2439138047536120591","3568941511819307597":"2299050328120443459","3580919316393943342":"915307618341281138","1992646776940747886":"8899051752068623027","1150920297099455776":"1915162166729653746","2607770557971207041":"8322164335689969869","2201891419282650323":"2220665928832874964","7396560783850352031":"885377679675649160","1160549730833153619":"7802464011374483650","1751849249847505445":"697447274063484233","8036461307753563532":"8169543669342032297","6685636636300916513":"5749842067223351916","1391433254568001081":"1601694294306181785","3638591295678422065":"2385168135917776521","7956640123713742045":"5438918685991143375","5550732672496440122":"6052736056302319508","1638023824557044294":"3219759588656310793","4687713963596847403":"3184601340977499966","2133268354270373062":"3957323758333244111","6415153004810182507":"2132219716439830988","5389653690991244634":"5390052320128290698","6229274872816511647":"7155279661164608479","3024160231407186142":"8779897652210355653","618545730805991923":"2899780039009684382","2214082183881259539":"7475400276907430027","4567081693841550247":"7871029673133478400","6078496861744671981":"8696450630852991372","1961645154494124524":"5297766907932823866","2475127770682062100":"8364436799332324211","8894730913476655945":"465817824598907824","4298456154227063318":"1006031542972246872"
+				}
+			},
+			"transformID" : 5438918685991143375,
+			"layer" : 3,
+			"tag" : "Straight",
+			"name" : "StartPart",
+			"hideFlags" : 0,
+			"active" : true,
+			"children" : [
+				{
+					"_ES3Ref" : "1545246617468517689",
+					"transformID" : 7641276910931086197,
+					"layer" : 0,
+					"tag" : "Standard",
+					"name" : "model-startPart-curved",
+					"hideFlags" : 0,
+					"active" : false,
+					"children" : [
+						
+					],
+					"components" : [
+						{
+							"__type" : "Transform",
+							"_ES3Ref" : "7641276910931086197",
+							"goID" : "1545246617468517689",
+							"parent" : {
+								"_ES3Ref" : "5438918685991143375"
+							},
+							"localPosition" : {
+								"x" : 0,
+								"y" : 0,
+								"z" : 0
+							},
+							"localRotation" : {
+								"x" : 0,
+								"y" : 0,
+								"z" : 1,
+								"w" : 0
+							},
+							"localScale" : {
+								"x" : 1,
+								"y" : 1,
+								"z" : 1
+							},
+							"siblingIndex" : 0
+						},{
+							"__type" : "MeshFilter",
+							"_ES3Ref" : "885377679675649160",
+							"goID" : "1545246617468517689",
+							"sharedMesh" : {
+								"_ES3Ref" : "3184601340977499966"
+							}
+						},{
+							"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+							"_ES3Ref" : "2220665928832874964",
+							"goID" : "1545246617468517689",
+							"additionalVertexStreams" : null,
+							"enabled" : true,
+							"shadowCastingMode" : 1,
+							"receiveShadows" : true,
+							"sharedMaterials" : [
+								{
+									"_ES3Ref" : "8832176191576401357"
+								}
+							],
+							"lightmapIndex" : -1,
+							"realtimeLightmapIndex" : -1,
+							"lightmapScaleOffset" : {
+								"x" : 1,
+								"y" : 1,
+								"z" : 0,
+								"w" : 0
+							},
+							"motionVectorGenerationMode" : 1,
+							"realtimeLightmapScaleOffset" : {
+								"x" : 1,
+								"y" : 1,
+								"z" : 0,
+								"w" : 0
+							},
+							"lightProbeUsage" : 1,
+							"lightProbeProxyVolumeOverride" : null,
+							"probeAnchor" : null,
+							"reflectionProbeUsage" : 1,
+							"sortingLayerName" : "Default",
+							"sortingLayerID" : 0,
+							"sortingOrder" : 0
+						}
+					]
+				},{
+					"_ES3Ref" : "5749842067223351916",
+					"transformID" : 697447274063484233,
+					"layer" : 0,
+					"tag" : "Standard",
+					"name" : "model-startPart-standard",
+					"hideFlags" : 0,
+					"active" : true,
+					"children" : [
+						
+					],
+					"components" : [
+						{
+							"__type" : "Transform",
+							"_ES3Ref" : "697447274063484233",
+							"goID" : "5749842067223351916",
+							"parent" : {
+								"_ES3Ref" : "5438918685991143375"
+							},
+							"localPosition" : {
+								"x" : 0,
+								"y" : 0,
+								"z" : 0
+							},
+							"localRotation" : {
+								"x" : 0,
+								"y" : 0,
+								"z" : 0,
+								"w" : 1
+							},
+							"localScale" : {
+								"x" : 1,
+								"y" : 1,
+								"z" : 1
+							},
+							"siblingIndex" : 1
+						},{
+							"__type" : "MeshFilter",
+							"_ES3Ref" : "2299050328120443459",
+							"goID" : "5749842067223351916",
+							"sharedMesh" : {
+								"_ES3Ref" : "2899780039009684382"
+							}
+						},{
+							"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+							"_ES3Ref" : "8322164335689969869",
+							"goID" : "5749842067223351916",
+							"additionalVertexStreams" : null,
+							"enabled" : true,
+							"shadowCastingMode" : 1,
+							"receiveShadows" : true,
+							"sharedMaterials" : [
+								{
+									"_ES3Ref" : "8832176191576401357"
+								}
+							],
+							"lightmapIndex" : -1,
+							"realtimeLightmapIndex" : -1,
+							"lightmapScaleOffset" : {
+								"x" : 1,
+								"y" : 1,
+								"z" : 0,
+								"w" : 0
+							},
+							"motionVectorGenerationMode" : 1,
+							"realtimeLightmapScaleOffset" : {
+								"x" : 1,
+								"y" : 1,
+								"z" : 0,
+								"w" : 0
+							},
+							"lightProbeUsage" : 1,
+							"lightProbeProxyVolumeOverride" : null,
+							"probeAnchor" : null,
+							"reflectionProbeUsage" : 1,
+							"sortingLayerName" : "Default",
+							"sortingLayerID" : 0,
+							"sortingOrder" : 0
+						}
+					]
+				},{
+					"_ES3Ref" : "8169543669342032297",
+					"transformID" : 3075680502258014864,
+					"layer" : 0,
+					"tag" : "Untagged",
+					"name" : "Origin_nuts",
+					"hideFlags" : 0,
+					"active" : true,
+					"children" : [
+						
+					],
+					"components" : [
+						{
+							"__type" : "Transform",
+							"_ES3Ref" : "3075680502258014864",
+							"goID" : "8169543669342032297",
+							"parent" : {
+								"_ES3Ref" : "5438918685991143375"
+							},
+							"localPosition" : {
+								"x" : 0,
+								"y" : 0,
+								"z" : 0.015
+							},
+							"localRotation" : {
+								"x" : 0.7071068,
+								"y" : 0,
+								"z" : 0,
+								"w" : 0.7071068
+							},
+							"localScale" : {
+								"x" : 1,
+								"y" : 1,
+								"z" : 1
+							},
+							"siblingIndex" : 2
+						},{
+							"__type" : "MeshFilter",
+							"_ES3Ref" : "7802464011374483650",
+							"goID" : "8169543669342032297",
+							"sharedMesh" : {
+								"_ES3Ref" : "7871029673133478400"
+							}
+						},{
+							"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+							"_ES3Ref" : "4489901268736260945",
+							"goID" : "8169543669342032297",
+							"additionalVertexStreams" : null,
+							"enabled" : true,
+							"shadowCastingMode" : 1,
+							"receiveShadows" : true,
+							"sharedMaterials" : [
+								{
+									"_ES3Ref" : "3804763550352257173"
+								}
+							],
+							"lightmapIndex" : -1,
+							"realtimeLightmapIndex" : -1,
+							"lightmapScaleOffset" : {
+								"x" : 1,
+								"y" : 1,
+								"z" : 0,
+								"w" : 0
+							},
+							"motionVectorGenerationMode" : 1,
+							"realtimeLightmapScaleOffset" : {
+								"x" : 1,
+								"y" : 1,
+								"z" : 0,
+								"w" : 0
+							},
+							"lightProbeUsage" : 1,
+							"lightProbeProxyVolumeOverride" : null,
+							"probeAnchor" : null,
+							"reflectionProbeUsage" : 1,
+							"sortingLayerName" : "Default",
+							"sortingLayerID" : 0,
+							"sortingOrder" : 0
+						}
+					]
+				},{
+					"_ES3Ref" : "915307618341281138",
+					"transformID" : 8899051752068623027,
+					"layer" : 2,
+					"tag" : "Untagged",
+					"name" : "SnapPoint",
+					"hideFlags" : 0,
+					"active" : true,
+					"children" : [
+						{
+							"_ES3Ref" : "5511798225703153782",
+							"es3Prefab" : {
+								"prefabId" : "1133995660366010320",
+								"refs" : {"790846591955261844":"4717559674085429448","2445333744597754685":"5511798225703153782","287232765690280163":"73188005547895585","8156354961832692087":"1591616202641059217","7306278891264703289":"3464920347912731872","7020378770738601653":"957744564419991466","557729014872282183":"7971592345520720577","8040237475289672105":"6289295231379172072","4237614786940340331":"4153211487251119756","1202778837685211886":"6156467099184942450","5970555729799259868":"7567144963779820303","6772316865083552711":"2866453018894730141","4480808816173580532":"2890995696242524052","3822933614087579974":"6910414292882691814","4700947692536954203":"4720567513527018709","3176421648796536147":"8257299387230229625","3228818519013509226":"8001240175777016383","255341691408147080":"3973781374303675439","1324627243876776743":"7474729774956127646","3451780865541388350":"1449300334307965313","5293114080730692545":"5254308229822323839","3122930112308194989":"4349809025970706394","8044239266570001729":"3337998036701655151","5146350871759285717":"4366034897833808474","1239278703979337014":"8018646228015293945","2195370156681158384":"2498095201684095673","2174689241189007376":"2385168135917776521","3468445332041179801":"8318792390546521258","1122987603224217754":"2184965214791808439","5623229735097845360":"6371229837518557993","3021815928332590198":"504766338530064279","6104724933318363111":"765112883591014240","5231510554534892927":"5016603626500987085","6018907930003898409":"6701136955117816856","4667059924807220268":"3096351653674928007","1870643587169877576":"4087584333552058254","8903411417359411442":"4733636916890928893","6487538963413281336":"4141274299988732187","4295023300087266767":"2280115236331728152"
+								}
+							},
+							"transformID" : 4366034897833808474,
+							"layer" : 3,
+							"tag" : "Curved",
+							"name" : "Curved-32",
+							"hideFlags" : 0,
+							"active" : true,
+							"children" : [
+								{
+									"_ES3Ref" : "2184965214791808439",
+									"transformID" : 3337998036701655151,
+									"layer" : 0,
+									"tag" : "Standard",
+									"name" : "model-curved-32",
+									"hideFlags" : 0,
+									"active" : true,
+									"children" : [
+										
+									],
+									"components" : [
+										{
+											"__type" : "Transform",
+											"_ES3Ref" : "3337998036701655151",
+											"goID" : "2184965214791808439",
+											"parent" : {
+												"_ES3Ref" : "4366034897833808474"
+											},
+											"localPosition" : {
+												"x" : 0,
+												"y" : 0,
+												"z" : 0
+											},
+											"localRotation" : {
+												"x" : 0,
+												"y" : 0,
+												"z" : 0,
+												"w" : 1
+											},
+											"localScale" : {
+												"x" : 1,
+												"y" : 1,
+												"z" : 1
+											},
+											"siblingIndex" : 0
+										},{
+											"__type" : "MeshFilter",
+											"_ES3Ref" : "2498095201684095673",
+											"goID" : "2184965214791808439",
+											"sharedMesh" : {
+												"_ES3Ref" : "4733636916890928893"
+											}
+										},{
+											"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+											"_ES3Ref" : "6156467099184942450",
+											"goID" : "2184965214791808439",
+											"additionalVertexStreams" : null,
+											"enabled" : true,
+											"shadowCastingMode" : 1,
+											"receiveShadows" : true,
+											"sharedMaterials" : [
+												{
+													"_ES3Ref" : "9063965427364045383"
+												}
+											],
+											"lightmapIndex" : -1,
+											"realtimeLightmapIndex" : -1,
+											"lightmapScaleOffset" : {
+												"x" : 1,
+												"y" : 1,
+												"z" : 0,
+												"w" : 0
+											},
+											"motionVectorGenerationMode" : 1,
+											"realtimeLightmapScaleOffset" : {
+												"x" : 1,
+												"y" : 1,
+												"z" : 0,
+												"w" : 0
+											},
+											"lightProbeUsage" : 1,
+											"lightProbeProxyVolumeOverride" : null,
+											"probeAnchor" : null,
+											"reflectionProbeUsage" : 1,
+											"sortingLayerName" : "Default",
+											"sortingLayerID" : 0,
+											"sortingOrder" : 0
+										}
+									]
+								},{
+									"_ES3Ref" : "2890995696242524052",
+									"transformID" : 5254308229822323839,
+									"layer" : 0,
+									"tag" : "Untagged",
+									"name" : "Origin_nuts",
+									"hideFlags" : 0,
+									"active" : true,
+									"children" : [
+										{
+											"_ES3Ref" : "6289295231379172072",
+											"transformID" : 8001240175777016383,
+											"layer" : 0,
+											"tag" : "Untagged",
+											"name" : "SnapPoint_nuts",
+											"hideFlags" : 0,
+											"active" : true,
+											"children" : [
+												
+											],
+											"components" : [
+												{
+													"__type" : "Transform",
+													"_ES3Ref" : "8001240175777016383",
+													"goID" : "6289295231379172072",
+													"parent" : {
+														"_ES3Ref" : "5254308229822323839"
+													},
+													"localPosition" : {
+														"x" : 0.08827019,
+														"y" : 0.3078354,
+														"z" : 0
+													},
+													"localRotation" : {
+														"x" : 0.9612617,
+														"y" : -0.275637418,
+														"z" : 0,
+														"w" : 0
+													},
+													"localScale" : {
+														"x" : 1,
+														"y" : 1,
+														"z" : 1
+													},
+													"siblingIndex" : 0
+												},{
+													"__type" : "MeshFilter",
+													"_ES3Ref" : "8318792390546521258",
+													"goID" : "6289295231379172072",
+													"sharedMesh" : {
+														"_ES3Ref" : "4141274299988732187"
+													}
+												},{
+													"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+													"_ES3Ref" : "3973781374303675439",
+													"goID" : "6289295231379172072",
+													"additionalVertexStreams" : null,
+													"enabled" : true,
+													"shadowCastingMode" : 1,
+													"receiveShadows" : true,
+													"sharedMaterials" : [
+														{
+															"_ES3Ref" : "4808044514080576871"
+														}
+													],
+													"lightmapIndex" : -1,
+													"realtimeLightmapIndex" : -1,
+													"lightmapScaleOffset" : {
+														"x" : 1,
+														"y" : 1,
+														"z" : 0,
+														"w" : 0
+													},
+													"motionVectorGenerationMode" : 1,
+													"realtimeLightmapScaleOffset" : {
+														"x" : 1,
+														"y" : 1,
+														"z" : 0,
+														"w" : 0
+													},
+													"lightProbeUsage" : 1,
+													"lightProbeProxyVolumeOverride" : null,
+													"probeAnchor" : null,
+													"reflectionProbeUsage" : 1,
+													"sortingLayerName" : "Default",
+													"sortingLayerID" : 0,
+													"sortingOrder" : 0
+												}
+											]
+										}
+									],
+									"components" : [
+										{
+											"__type" : "Transform",
+											"_ES3Ref" : "5254308229822323839",
+											"goID" : "2890995696242524052",
+											"parent" : {
+												"_ES3Ref" : "4366034897833808474"
+											},
+											"localPosition" : {
+												"x" : 0,
+												"y" : 0,
+												"z" : 0
+											},
+											"localRotation" : {
+												"x" : 0,
+												"y" : 0,
+												"z" : 0,
+												"w" : 1
+											},
+											"localScale" : {
+												"x" : 1,
+												"y" : 1,
+												"z" : 1
+											},
+											"siblingIndex" : 1
+										},{
+											"__type" : "MeshFilter",
+											"_ES3Ref" : "8018646228015293945",
+											"goID" : "2890995696242524052",
+											"sharedMesh" : {
+												"_ES3Ref" : "4141274299988732187"
+											}
+										},{
+											"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+											"_ES3Ref" : "7567144963779820303",
+											"goID" : "2890995696242524052",
+											"additionalVertexStreams" : null,
+											"enabled" : true,
+											"shadowCastingMode" : 1,
+											"receiveShadows" : true,
+											"sharedMaterials" : [
+												{
+													"_ES3Ref" : "4808044514080576871"
+												}
+											],
+											"lightmapIndex" : -1,
+											"realtimeLightmapIndex" : -1,
+											"lightmapScaleOffset" : {
+												"x" : 1,
+												"y" : 1,
+												"z" : 0,
+												"w" : 0
+											},
+											"motionVectorGenerationMode" : 1,
+											"realtimeLightmapScaleOffset" : {
+												"x" : 1,
+												"y" : 1,
+												"z" : 0,
+												"w" : 0
+											},
+											"lightProbeUsage" : 1,
+											"lightProbeProxyVolumeOverride" : null,
+											"probeAnchor" : null,
+											"reflectionProbeUsage" : 1,
+											"sortingLayerName" : "Default",
+											"sortingLayerID" : 0,
+											"sortingOrder" : 0
+										}
+									]
+								},{
+									"_ES3Ref" : "4720567513527018709",
+									"transformID" : 7474729774956127646,
+									"layer" : 2,
+									"tag" : "Untagged",
+									"name" : "SnapPoint",
+									"hideFlags" : 0,
+									"active" : true,
+									"children" : [
+										{
+											"_ES3Ref" : "4625036520853958226",
+											"es3Prefab" : {
+												"prefabId" : "8280898898641230682",
+												"refs" : {"7284739816729493004":"73188005547895585","600460586298354001":"1591616202641059217","6970125740401008327":"6257077086828953079","1732743456235871424":"3464920347912731872","5627714226929607683":"957744564419991466","948837298151241195":"7971592345520720577","6930545388440664479":"5825210422502044710","441447364958238003":"2866453018894730141","917080357886088499":"5249239261491041229","1808066365127377821":"3702602474614856532","3712987226946485954":"5830463826808415108","4442609245814837677":"8945109500234929676","4121650270772082101":"1434374569793921242","1864338595066702672":"2521880874154171356","6711673404947824514":"1593263337969946023","6085402897241476669":"4303910740078956334","3375109728467177717":"851874276176468369","2826060627699176523":"4685336229775046915","6509672640912469319":"7513611346461877183","2007959851946908323":"8861462118004909251","961740104228284216":"5294346419737482904","4419667669413048143":"3717943501809266919","1501482360184465543":"2100659044004557417","7764888789056060681":"4473025320296566102","3485188293626981677":"847411928949687179","8431313084381321048":"8263298249342026275","5613847738686459249":"6716461479702066941","3852361216670210784":"8758354822999282049","2657135106288827938":"3664650554738741534","2509083588216472883":"3812506894670295377","2203332225017465470":"2188882031577147169","6913997308802001242":"1171505552843727795","7105880010056752226":"8201264941416866802","6413361483719277169":"4625036520853958226","6557416352051159285":"6491611562555139962","2528583039885161039":"5268071161618105777","5407980810421875694":"2385168135917776521","680798853245238317":"8193395588562673913","4030225383235077507":"2290080675913827409","7590534032145550905":"4808044514080576871","5610389377822075900":"2280115236331728152","5653081256908404485":"4087584333552058254","1777541095046050297":"3631750336007735284","4853998040219793671":"6371229837518557993","6590999464209114090":"5016603626500987085","6577525965254803215":"4141274299988732187","8200967427739771841":"7216599427120861738","6120251253305037587":"5099164832501260050","2781761034974577126":"7712303045612670380","2361139260419841562":"3443840213342573831","641433198610104685":"8978089654306217733","4134472054648285052":"509211345253401304","5581061144693180044":"3792675520318604762","1186330179690702434":"624996559821987866","7295052047686543067":"2717793300197420841"
+												}
+											},
+											"transformID" : 6716461479702066941,
+											"layer" : 3,
+											"tag" : "Straight",
+											"name" : "Straight-106",
+											"hideFlags" : 0,
+											"active" : true,
+											"children" : [
+												{
+													"_ES3Ref" : "1171505552843727795",
+													"transformID" : 5294346419737482904,
+													"layer" : 0,
+													"tag" : "Standard",
+													"name" : "model-straight-106",
+													"hideFlags" : 0,
+													"active" : true,
+													"children" : [
+														
+													],
+													"components" : [
+														{
+															"__type" : "Transform",
+															"_ES3Ref" : "5294346419737482904",
+															"goID" : "1171505552843727795",
+															"parent" : {
+																"_ES3Ref" : "6716461479702066941"
+															},
+															"localPosition" : {
+																"x" : 0,
+																"y" : 0,
+																"z" : 0
+															},
+															"localRotation" : {
+																"x" : 0,
+																"y" : 0,
+																"z" : 0,
+																"w" : 1
+															},
+															"localScale" : {
+																"x" : 1,
+																"y" : 1,
+																"z" : 1
+															},
+															"siblingIndex" : 0
+														},{
+															"__type" : "MeshFilter",
+															"_ES3Ref" : "5825210422502044710",
+															"goID" : "1171505552843727795",
+															"sharedMesh" : {
+																"_ES3Ref" : "7216599427120861738"
+															}
+														},{
+															"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+															"_ES3Ref" : "2100659044004557417",
+															"goID" : "1171505552843727795",
+															"additionalVertexStreams" : null,
+															"enabled" : true,
+															"shadowCastingMode" : 1,
+															"receiveShadows" : true,
+															"sharedMaterials" : [
+																{
+																	"_ES3Ref" : "8832176191576401357"
+																}
+															],
+															"lightmapIndex" : -1,
+															"realtimeLightmapIndex" : -1,
+															"lightmapScaleOffset" : {
+																"x" : 1,
+																"y" : 1,
+																"z" : 0,
+																"w" : 0
+															},
+															"motionVectorGenerationMode" : 1,
+															"realtimeLightmapScaleOffset" : {
+																"x" : 1,
+																"y" : 1,
+																"z" : 0,
+																"w" : 0
+															},
+															"lightProbeUsage" : 1,
+															"lightProbeProxyVolumeOverride" : null,
+															"probeAnchor" : null,
+															"reflectionProbeUsage" : 1,
+															"sortingLayerName" : "Default",
+															"sortingLayerID" : 0,
+															"sortingOrder" : 0
+														}
+													]
+												},{
+													"_ES3Ref" : "3664650554738741534",
+													"transformID" : 8758354822999282049,
+													"layer" : 0,
+													"tag" : "Window",
+													"name" : "model-straight-106-window",
+													"hideFlags" : 0,
+													"active" : false,
+													"children" : [
+														
+													],
+													"components" : [
+														{
+															"__type" : "Transform",
+															"_ES3Ref" : "8758354822999282049",
+															"goID" : "3664650554738741534",
+															"parent" : {
+																"_ES3Ref" : "6716461479702066941"
+															},
+															"localPosition" : {
+																"x" : 0,
+																"y" : 0,
+																"z" : 0
+															},
+															"localRotation" : {
+																"x" : -0.7071068,
+																"y" : 0,
+																"z" : -0.7071068,
+																"w" : 0
+															},
+															"localScale" : {
+																"x" : 0.01,
+																"y" : 0.01,
+																"z" : 0.01
+															},
+															"siblingIndex" : 1
+														},{
+															"__type" : "MeshFilter",
+															"_ES3Ref" : "3717943501809266919",
+															"goID" : "3664650554738741534",
+															"sharedMesh" : {
+																"_ES3Ref" : "3792675520318604762"
+															}
+														},{
+															"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+															"_ES3Ref" : "4303910740078956334",
+															"goID" : "3664650554738741534",
+															"additionalVertexStreams" : null,
+															"enabled" : true,
+															"shadowCastingMode" : 1,
+															"receiveShadows" : true,
+															"sharedMaterials" : [
+																{
+																	"_ES3Ref" : "8832176191576401357"
+																},{
+																	"_ES3Ref" : "3631750336007735284"
+																},{
+																	"_ES3Ref" : "4808044514080576871"
+																},{
+																	"_ES3Ref" : "4808044514080576871"
+																}
+															],
+															"lightmapIndex" : -1,
+															"realtimeLightmapIndex" : -1,
+															"lightmapScaleOffset" : {
+																"x" : 1,
+																"y" : 1,
+																"z" : 0,
+																"w" : 0
+															},
+															"motionVectorGenerationMode" : 1,
+															"realtimeLightmapScaleOffset" : {
+																"x" : 1,
+																"y" : 1,
+																"z" : 0,
+																"w" : 0
+															},
+															"lightProbeUsage" : 1,
+															"lightProbeProxyVolumeOverride" : null,
+															"probeAnchor" : null,
+															"reflectionProbeUsage" : 1,
+															"sortingLayerName" : "Default",
+															"sortingLayerID" : 0,
+															"sortingOrder" : 0
+														}
+													]
+												},{
+													"_ES3Ref" : "8201264941416866802",
+													"transformID" : 5249239261491041229,
+													"layer" : 0,
+													"tag" : "Untagged",
+													"name" : "Origin_nuts",
+													"hideFlags" : 0,
+													"active" : true,
+													"children" : [
+														{
+															"_ES3Ref" : "4685336229775046915",
+															"transformID" : 847411928949687179,
+															"layer" : 0,
+															"tag" : "Untagged",
+															"name" : "SnapPoint_nuts",
+															"hideFlags" : 0,
+															"active" : true,
+															"children" : [
+																
+															],
+															"components" : [
+																{
+																	"__type" : "Transform",
+																	"_ES3Ref" : "847411928949687179",
+																	"goID" : "4685336229775046915",
+																	"parent" : {
+																		"_ES3Ref" : "5249239261491041229"
+																	},
+																	"localPosition" : {
+																		"x" : 0,
+																		"y" : 1.072,
+																		"z" : 0
+																	},
+																	"localRotation" : {
+																		"x" : 1,
+																		"y" : 0,
+																		"z" : 0,
+																		"w" : 0
+																	},
+																	"localScale" : {
+																		"x" : 1,
+																		"y" : 1,
+																		"z" : 1
+																	},
+																	"siblingIndex" : 0
+																},{
+																	"__type" : "MeshFilter",
+																	"_ES3Ref" : "4473025320296566102",
+																	"goID" : "4685336229775046915",
+																	"sharedMesh" : {
+																		"_ES3Ref" : "4141274299988732187"
+																	}
+																},{
+																	"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+																	"_ES3Ref" : "8263298249342026275",
+																	"goID" : "4685336229775046915",
+																	"additionalVertexStreams" : null,
+																	"enabled" : true,
+																	"shadowCastingMode" : 1,
+																	"receiveShadows" : true,
+																	"sharedMaterials" : [
+																		{
+																			"_ES3Ref" : "3804763550352257173"
+																		}
+																	],
+																	"lightmapIndex" : -1,
+																	"realtimeLightmapIndex" : -1,
+																	"lightmapScaleOffset" : {
+																		"x" : 1,
+																		"y" : 1,
+																		"z" : 0,
+																		"w" : 0
+																	},
+																	"motionVectorGenerationMode" : 1,
+																	"realtimeLightmapScaleOffset" : {
+																		"x" : 1,
+																		"y" : 1,
+																		"z" : 0,
+																		"w" : 0
+																	},
+																	"lightProbeUsage" : 1,
+																	"lightProbeProxyVolumeOverride" : null,
+																	"probeAnchor" : null,
+																	"reflectionProbeUsage" : 1,
+																	"sortingLayerName" : "Default",
+																	"sortingLayerID" : 0,
+																	"sortingOrder" : 0
+																}
+															]
+														}
+													],
+													"components" : [
+														{
+															"__type" : "Transform",
+															"_ES3Ref" : "5249239261491041229",
+															"goID" : "8201264941416866802",
+															"parent" : {
+																"_ES3Ref" : "6716461479702066941"
+															},
+															"localPosition" : {
+																"x" : 0,
+																"y" : 0,
+																"z" : 0
+															},
+															"localRotation" : {
+																"x" : 0,
+																"y" : 0,
+																"z" : 0,
+																"w" : 1
+															},
+															"localScale" : {
+																"x" : 1,
+																"y" : 1,
+																"z" : 1
+															},
+															"siblingIndex" : 2
+														},{
+															"__type" : "MeshFilter",
+															"_ES3Ref" : "8861462118004909251",
+															"goID" : "8201264941416866802",
+															"sharedMesh" : {
+																"_ES3Ref" : "4141274299988732187"
+															}
+														},{
+															"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+															"_ES3Ref" : "1434374569793921242",
+															"goID" : "8201264941416866802",
+															"additionalVertexStreams" : null,
+															"enabled" : true,
+															"shadowCastingMode" : 1,
+															"receiveShadows" : true,
+															"sharedMaterials" : [
+																{
+																	"_ES3Ref" : "3804763550352257173"
+																}
+															],
+															"lightmapIndex" : -1,
+															"realtimeLightmapIndex" : -1,
+															"lightmapScaleOffset" : {
+																"x" : 1,
+																"y" : 1,
+																"z" : 0,
+																"w" : 0
+															},
+															"motionVectorGenerationMode" : 1,
+															"realtimeLightmapScaleOffset" : {
+																"x" : 1,
+																"y" : 1,
+																"z" : 0,
+																"w" : 0
+															},
+															"lightProbeUsage" : 1,
+															"lightProbeProxyVolumeOverride" : null,
+															"probeAnchor" : null,
+															"reflectionProbeUsage" : 1,
+															"sortingLayerName" : "Default",
+															"sortingLayerID" : 0,
+															"sortingOrder" : 0
+														}
+													]
+												},{
+													"_ES3Ref" : "2188882031577147169",
+													"transformID" : 2290080675913827409,
+													"layer" : 6,
+													"tag" : "Untagged",
+													"name" : "SnapPoint",
+													"hideFlags" : 0,
+													"active" : true,
+													"children" : [
+														{
+															"_ES3Ref" : "4917982994285177164",
+															"es3Prefab" : {
+																"prefabId" : "1133995660366010320",
+																"refs" : {"790846591955261844":"2061882334182644460","2445333744597754685":"4917982994285177164","287232765690280163":"73188005547895585","8156354961832692087":"1591616202641059217","7306278891264703289":"3464920347912731872","7020378770738601653":"957744564419991466","557729014872282183":"7971592345520720577","8040237475289672105":"8719925018617839498","4237614786940340331":"4428970880547239393","1202778837685211886":"695774742303696719","5970555729799259868":"2907707730389256217","6772316865083552711":"2866453018894730141","4480808816173580532":"8699555025880801815","3822933614087579974":"3074116697169404439","4700947692536954203":"6426028105437477600","3176421648796536147":"6935666467900471128","3228818519013509226":"6266396834353026597","255341691408147080":"8228184276965731363","1324627243876776743":"4657968838548958706","3451780865541388350":"6368265601361984694","5293114080730692545":"7598227013846925794","3122930112308194989":"746326320972078322","8044239266570001729":"7828930723261949561","5146350871759285717":"4456061980334391494","1239278703979337014":"4955107194624518260","2195370156681158384":"4137668265002137120","2174689241189007376":"2385168135917776521","3468445332041179801":"3050331623124073442","1122987603224217754":"3111280664533109799","5623229735097845360":"6371229837518557993","3021815928332590198":"504766338530064279","6104724933318363111":"765112883591014240","5231510554534892927":"5016603626500987085","6018907930003898409":"6701136955117816856","4667059924807220268":"3096351653674928007","1870643587169877576":"4087584333552058254","8903411417359411442":"4733636916890928893","6487538963413281336":"4141274299988732187","4295023300087266767":"2280115236331728152"
+																}
+															},
+															"transformID" : 4456061980334391494,
+															"layer" : 3,
+															"tag" : "Curved",
+															"name" : "Curved-32",
+															"hideFlags" : 0,
+															"active" : true,
+															"children" : [
+																{
+																	"_ES3Ref" : "3111280664533109799",
+																	"transformID" : 7828930723261949561,
+																	"layer" : 0,
+																	"tag" : "Standard",
+																	"name" : "model-curved-32",
+																	"hideFlags" : 0,
+																	"active" : true,
+																	"children" : [
+																		
+																	],
+																	"components" : [
+																		{
+																			"__type" : "Transform",
+																			"_ES3Ref" : "7828930723261949561",
+																			"goID" : "3111280664533109799",
+																			"parent" : {
+																				"_ES3Ref" : "4456061980334391494"
+																			},
+																			"localPosition" : {
+																				"x" : 0,
+																				"y" : 0,
+																				"z" : 0
+																			},
+																			"localRotation" : {
+																				"x" : 0,
+																				"y" : 0,
+																				"z" : 0,
+																				"w" : 1
+																			},
+																			"localScale" : {
+																				"x" : 1,
+																				"y" : 1,
+																				"z" : 1
+																			},
+																			"siblingIndex" : 0
+																		},{
+																			"__type" : "MeshFilter",
+																			"_ES3Ref" : "4137668265002137120",
+																			"goID" : "3111280664533109799",
+																			"sharedMesh" : {
+																				"_ES3Ref" : "4733636916890928893"
+																			}
+																		},{
+																			"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+																			"_ES3Ref" : "695774742303696719",
+																			"goID" : "3111280664533109799",
+																			"additionalVertexStreams" : null,
+																			"enabled" : true,
+																			"shadowCastingMode" : 1,
+																			"receiveShadows" : true,
+																			"sharedMaterials" : [
+																				{
+																					"_ES3Ref" : "9063965427364045383"
+																				}
+																			],
+																			"lightmapIndex" : -1,
+																			"realtimeLightmapIndex" : -1,
+																			"lightmapScaleOffset" : {
+																				"x" : 1,
+																				"y" : 1,
+																				"z" : 0,
+																				"w" : 0
+																			},
+																			"motionVectorGenerationMode" : 1,
+																			"realtimeLightmapScaleOffset" : {
+																				"x" : 1,
+																				"y" : 1,
+																				"z" : 0,
+																				"w" : 0
+																			},
+																			"lightProbeUsage" : 1,
+																			"lightProbeProxyVolumeOverride" : null,
+																			"probeAnchor" : null,
+																			"reflectionProbeUsage" : 1,
+																			"sortingLayerName" : "Default",
+																			"sortingLayerID" : 0,
+																			"sortingOrder" : 0
+																		}
+																	]
+																},{
+																	"_ES3Ref" : "8699555025880801815",
+																	"transformID" : 7598227013846925794,
+																	"layer" : 0,
+																	"tag" : "Untagged",
+																	"name" : "Origin_nuts",
+																	"hideFlags" : 0,
+																	"active" : true,
+																	"children" : [
+																		{
+																			"_ES3Ref" : "8719925018617839498",
+																			"transformID" : 6266396834353026597,
+																			"layer" : 0,
+																			"tag" : "Untagged",
+																			"name" : "SnapPoint_nuts",
+																			"hideFlags" : 0,
+																			"active" : true,
+																			"children" : [
+																				
+																			],
+																			"components" : [
+																				{
+																					"__type" : "Transform",
+																					"_ES3Ref" : "6266396834353026597",
+																					"goID" : "8719925018617839498",
+																					"parent" : {
+																						"_ES3Ref" : "7598227013846925794"
+																					},
+																					"localPosition" : {
+																						"x" : 0.08827019,
+																						"y" : 0.3078354,
+																						"z" : 0
+																					},
+																					"localRotation" : {
+																						"x" : 0.9612617,
+																						"y" : -0.275637418,
+																						"z" : 0,
+																						"w" : 0
+																					},
+																					"localScale" : {
+																						"x" : 1,
+																						"y" : 1,
+																						"z" : 1
+																					},
+																					"siblingIndex" : 0
+																				},{
+																					"__type" : "MeshFilter",
+																					"_ES3Ref" : "3050331623124073442",
+																					"goID" : "8719925018617839498",
+																					"sharedMesh" : {
+																						"_ES3Ref" : "4141274299988732187"
+																					}
+																				},{
+																					"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+																					"_ES3Ref" : "8228184276965731363",
+																					"goID" : "8719925018617839498",
+																					"additionalVertexStreams" : null,
+																					"enabled" : true,
+																					"shadowCastingMode" : 1,
+																					"receiveShadows" : true,
+																					"sharedMaterials" : [
+																						{
+																							"_ES3Ref" : "4808044514080576871"
+																						}
+																					],
+																					"lightmapIndex" : -1,
+																					"realtimeLightmapIndex" : -1,
+																					"lightmapScaleOffset" : {
+																						"x" : 1,
+																						"y" : 1,
+																						"z" : 0,
+																						"w" : 0
+																					},
+																					"motionVectorGenerationMode" : 1,
+																					"realtimeLightmapScaleOffset" : {
+																						"x" : 1,
+																						"y" : 1,
+																						"z" : 0,
+																						"w" : 0
+																					},
+																					"lightProbeUsage" : 1,
+																					"lightProbeProxyVolumeOverride" : null,
+																					"probeAnchor" : null,
+																					"reflectionProbeUsage" : 1,
+																					"sortingLayerName" : "Default",
+																					"sortingLayerID" : 0,
+																					"sortingOrder" : 0
+																				}
+																			]
+																		}
+																	],
+																	"components" : [
+																		{
+																			"__type" : "Transform",
+																			"_ES3Ref" : "7598227013846925794",
+																			"goID" : "8699555025880801815",
+																			"parent" : {
+																				"_ES3Ref" : "4456061980334391494"
+																			},
+																			"localPosition" : {
+																				"x" : 0,
+																				"y" : 0,
+																				"z" : 0
+																			},
+																			"localRotation" : {
+																				"x" : 0,
+																				"y" : 0,
+																				"z" : 0,
+																				"w" : 1
+																			},
+																			"localScale" : {
+																				"x" : 1,
+																				"y" : 1,
+																				"z" : 1
+																			},
+																			"siblingIndex" : 1
+																		},{
+																			"__type" : "MeshFilter",
+																			"_ES3Ref" : "4955107194624518260",
+																			"goID" : "8699555025880801815",
+																			"sharedMesh" : {
+																				"_ES3Ref" : "4141274299988732187"
+																			}
+																		},{
+																			"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+																			"_ES3Ref" : "2907707730389256217",
+																			"goID" : "8699555025880801815",
+																			"additionalVertexStreams" : null,
+																			"enabled" : true,
+																			"shadowCastingMode" : 1,
+																			"receiveShadows" : true,
+																			"sharedMaterials" : [
+																				{
+																					"_ES3Ref" : "4808044514080576871"
+																				}
+																			],
+																			"lightmapIndex" : -1,
+																			"realtimeLightmapIndex" : -1,
+																			"lightmapScaleOffset" : {
+																				"x" : 1,
+																				"y" : 1,
+																				"z" : 0,
+																				"w" : 0
+																			},
+																			"motionVectorGenerationMode" : 1,
+																			"realtimeLightmapScaleOffset" : {
+																				"x" : 1,
+																				"y" : 1,
+																				"z" : 0,
+																				"w" : 0
+																			},
+																			"lightProbeUsage" : 1,
+																			"lightProbeProxyVolumeOverride" : null,
+																			"probeAnchor" : null,
+																			"reflectionProbeUsage" : 1,
+																			"sortingLayerName" : "Default",
+																			"sortingLayerID" : 0,
+																			"sortingOrder" : 0
+																		}
+																	]
+																},{
+																	"_ES3Ref" : "6426028105437477600",
+																	"transformID" : 4657968838548958706,
+																	"layer" : 2,
+																	"tag" : "Untagged",
+																	"name" : "SnapPoint",
+																	"hideFlags" : 0,
+																	"active" : true,
+																	"children" : [
+																		{
+																			"_ES3Ref" : "7993248694595482065",
+																			"es3Prefab" : {
+																				"prefabId" : "1021953560177054525",
+																				"refs" : {"3860885687510646135":"3310349036761127197","5928590810957192484":"73188005547895585","2914865295124375479":"9136022062629501718","6869686575480026356":"1591616202641059217","2495076098852501546":"7094161051101992619","6383226210383474096":"454932516094609188","2708919256097749326":"7993248694595482065","3152984153027682226":"1885752988072617061","7867412238349164812":"3464920347912731872","3295874962235317767":"957744564419991466","3248599405332228127":"2102709902788624303","6305999288044474449":"7971592345520720577","619592847726283119":"7442201903952870921","75025010229028824":"2866453018894730141","5340783198784115805":"2946615643745964454","7026722725992910901":"996769286722232939","2106502428237116326":"7474972317712050857","4155510329399552306":"3157816528909532893","5378338854271270970":"2314284660157062969","4026029821762051033":"3767383747350930423","8056450571169782058":"3954073482057626902","2402271337057367911":"7390085921721069461","959468571898364123":"6030560730650242640","2570862101369108591":"5415312469762508340","9031609958979738826":"8578711497164633800","7951183323020325904":"2385168135917776521","8301250684286639374":"8193395588562673913","2451647436303826167":"2027268754436560191","7743851099422112630":"2280115236331728152","5320941002532805481":"2137819723775017170","4584585439851056144":"516525625021829361","1018581346047709776":"279028885494023278"
+																				}
+																			},
+																			"transformID" : 6030560730650242640,
+																			"layer" : 3,
+																			"tag" : "Straight",
+																			"name" : "Ending",
+																			"hideFlags" : 0,
+																			"active" : true,
+																			"children" : [
+																				{
+																					"_ES3Ref" : "7474972317712050857",
+																					"transformID" : 2027268754436560191,
+																					"layer" : 0,
+																					"tag" : "Standard",
+																					"name" : "model-ending",
+																					"hideFlags" : 0,
+																					"active" : true,
+																					"children" : [
+																						
+																					],
+																					"components" : [
+																						{
+																							"__type" : "Transform",
+																							"_ES3Ref" : "2027268754436560191",
+																							"goID" : "7474972317712050857",
+																							"parent" : {
+																								"_ES3Ref" : "6030560730650242640"
+																							},
+																							"localPosition" : {
+																								"x" : 0,
+																								"y" : 0,
+																								"z" : 0
+																							},
+																							"localRotation" : {
+																								"x" : 0,
+																								"y" : 0.7071068,
+																								"z" : 0,
+																								"w" : 0.7071068
+																							},
+																							"localScale" : {
+																								"x" : 1,
+																								"y" : 1,
+																								"z" : 1
+																							},
+																							"siblingIndex" : 0
+																						},{
+																							"__type" : "MeshFilter",
+																							"_ES3Ref" : "3157816528909532893",
+																							"goID" : "7474972317712050857",
+																							"sharedMesh" : {
+																								"_ES3Ref" : "279028885494023278"
+																							}
+																						},{
+																							"__type" : "UnityEngine.MeshRenderer,UnityEngine.CoreModule",
+																							"_ES3Ref" : "7442201903952870921",
+																							"goID" : "7474972317712050857",
+																							"additionalVertexStreams" : null,
+																							"enabled" : true,
+																							"shadowCastingMode" : 1,
+																							"receiveShadows" : true,
+																							"sharedMaterials" : [
+																								{
+																									"_ES3Ref" : "8832176191576401357"
+																								}
+																							],
+																							"lightmapIndex" : -1,
+																							"realtimeLightmapIndex" : -1,
+																							"lightmapScaleOffset" : {
+																								"x" : 1,
+																								"y" : 1,
+																								"z" : 0,
+																								"w" : 0
+																							},
+																							"motionVectorGenerationMode" : 1,
+																							"realtimeLightmapScaleOffset" : {
+																								"x" : 1,
+																								"y" : 1,
+																								"z" : 0,
+																								"w" : 0
+																							},
+																							"lightProbeUsage" : 1,
+																							"lightProbeProxyVolumeOverride" : null,
+																							"probeAnchor" : null,
+																							"reflectionProbeUsage" : 1,
+																							"sortingLayerName" : "Default",
+																							"sortingLayerID" : 0,
+																							"sortingOrder" : 0
+																						}
+																					]
+																				},{
+																					"_ES3Ref" : "7094161051101992619",
+																					"transformID" : 454932516094609188,
+																					"layer" : 6,
+																					"tag" : "Untagged",
+																					"name" : "Angler check",
+																					"hideFlags" : 0,
+																					"active" : true,
+																					"children" : [
+																						
+																					],
+																					"components" : [
+																						{
+																							"__type" : "Transform",
+																							"_ES3Ref" : "454932516094609188",
+																							"goID" : "7094161051101992619",
+																							"parent" : {
+																								"_ES3Ref" : "6030560730650242640"
+																							},
+																							"localPosition" : {
+																								"x" : 0.543,
+																								"y" : 0.312,
+																								"z" : 0
+																							},
+																							"localRotation" : {
+																								"x" : 0,
+																								"y" : 0,
+																								"z" : 0,
+																								"w" : 1
+																							},
+																							"localScale" : {
+																								"x" : 0.01,
+																								"y" : 0.3579,
+																								"z" : 0.74354
+																							},
+																							"siblingIndex" : 1
+																						},{
+																							"__type" : "MeshFilter",
+																							"_ES3Ref" : "2946615643745964454",
+																							"goID" : "7094161051101992619",
+																							"sharedMesh" : null
+																						}
+																					]
+																				},{
+																					"_ES3Ref" : "3954073482057626902",
+																					"transformID" : 3767383747350930423,
+																					"layer" : 2,
+																					"tag" : "Untagged",
+																					"name" : "SnapPoint",
+																					"hideFlags" : 0,
+																					"active" : true,
+																					"children" : [
+																						
+																					],
+																					"components" : [
+																						{
+																							"__type" : "Transform",
+																							"_ES3Ref" : "3767383747350930423",
+																							"goID" : "3954073482057626902",
+																							"parent" : {
+																								"_ES3Ref" : "6030560730650242640"
+																							},
+																							"localPosition" : {
+																								"x" : -4.261732E-06,
+																								"y" : 0.599257648,
+																								"z" : -0.00112083554
+																							},
+																							"localRotation" : {
+																								"x" : 0,
+																								"y" : 0,
+																								"z" : 0,
+																								"w" : 1
+																							},
+																							"localScale" : {
+																								"x" : 1,
+																								"y" : 1,
+																								"z" : 1
+																							},
+																							"siblingIndex" : 2
+																						},{
+																							"__type" : "UnityEngine.BoxCollider,UnityEngine.PhysicsModule",
+																							"_ES3Ref" : "8578711497164633800",
+																							"goID" : "3954073482057626902",
+																							"center" : {
+																								"x" : -0.003333211,
+																								"y" : 0.324412853,
+																								"z" : 0.07164964
+																							},
+																							"size" : {
+																								"x" : 0.9933336,
+																								"y" : 0.564385235,
+																								"z" : 1.03670073
+																							},
+																							"enabled" : true,
+																							"isTrigger" : true,
+																							"contactOffset" : 0.01,
+																							"material" : null
+																						},{
+																							"__type" : "UnityEngine.Rigidbody,UnityEngine.PhysicsModule",
+																							"_ES3Ref" : "5415312469762508340",
+																							"goID" : "3954073482057626902",
+																							"velocity" : {
+																								"x" : 0,
+																								"y" : 0,
+																								"z" : 0
+																							},
+																							"angularVelocity" : {
+																								"x" : 0,
+																								"y" : 0,
+																								"z" : 0
+																							},
+																							"drag" : 0,
+																							"angularDrag" : 0.05,
+																							"mass" : 1,
+																							"useGravity" : false,
+																							"maxDepenetrationVelocity" : 10,
+																							"isKinematic" : true,
+																							"freezeRotation" : false,
+																							"constraints" : 0,
+																							"collisionDetectionMode" : 0,
+																							"centerOfMass" : {
+																								"x" : 0,
+																								"y" : 0,
+																								"z" : 0
+																							},
+																							"detectCollisions" : true,
+																							"position" : {
+																								"x" : -0.0011197034,
+																								"y" : 0.535983562,
+																								"z" : -2.12403584
+																							},
+																							"rotation" : {
+																								"x" : -0.500000954,
+																								"y" : 0.499999076,
+																								"z" : -0.499999,
+																								"w" : 0.500000954
+																							},
+																							"interpolation" : 0,
+																							"solverIterations" : 6,
+																							"sleepThreshold" : 0.005,
+																							"maxAngularVelocity" : 7,
+																							"solverVelocityIterations" : 1
+																						}
+																					]
+																				}
+																			],
+																			"components" : [
+																				{
+																					"__type" : "Transform",
+																					"_ES3Ref" : "6030560730650242640",
+																					"goID" : "7993248694595482065",
+																					"parent" : {
+																						"_ES3Ref" : "4657968838548958706"
+																					},
+																					"localPosition" : {
+																						"x" : 0,
+																						"y" : 0,
+																						"z" : 0
+																					},
+																					"localRotation" : {
+																						"x" : -5.960463E-08,
+																						"y" : -1,
+																						"z" : 1.42601635E-07,
+																						"w" : -1.42912711E-06
+																					},
+																					"localScale" : {
+																						"x" : 1,
+																						"y" : 1,
+																						"z" : 1
+																					},
+																					"siblingIndex" : 0
+																				},{
+																					"__type" : "UnityEngine.BoxCollider,UnityEngine.PhysicsModule",
+																					"_ES3Ref" : "1885752988072617061",
+																					"goID" : "7993248694595482065",
+																					"center" : {
+																						"x" : -0.00297760963,
+																						"y" : 0.2704865,
+																						"z" : 0.0515829176
+																					},
+																					"size" : {
+																						"x" : 0.9904046,
+																						"y" : 0.6190384,
+																						"z" : 1.03613544
+																					},
+																					"enabled" : true,
+																					"isTrigger" : false,
+																					"contactOffset" : 0.01,
+																					"material" : null
+																				},{
+																					"__type" : "ES3Internal.ES3Prefab,Assembly-CSharp-firstpass"
+																				}
+																			]
+																		}
+																	],
+																	"components" : [
+																		{
+																			"__type" : "Transform",
+																			"_ES3Ref" : "4657968838548958706",
+																			"goID" : "6426028105437477600",
+																			"parent" : {
+																				"_ES3Ref" : "4456061980334391494"
+																			},
+																			"localPosition" : {
+																				"x" : 0.08827019,
+																				"y" : 0.30783537,
+																				"z" : 0
+																			},
+																			"localRotation" : {
+																				"x" : 0,
+																				"y" : 0,
+																				"z" : -0.275637329,
+																				"w" : 0.961261749
+																			},
+																			"localScale" : {
+																				"x" : 1,
+																				"y" : 1,
+																				"z" : 1
+																			},
+																			"siblingIndex" : 2
+																		},{
+																			"__type" : "UnityEngine.Rigidbody,UnityEngine.PhysicsModule",
+																			"_ES3Ref" : "3074116697169404439",
+																			"goID" : "6426028105437477600",
+																			"velocity" : {
+																				"x" : 0,
+																				"y" : 0,
+																				"z" : 0
+																			},
+																			"angularVelocity" : {
+																				"x" : 0,
+																				"y" : 0,
+																				"z" : 0
+																			},
+																			"drag" : 0,
+																			"angularDrag" : 0.05,
+																			"mass" : 1,
+																			"useGravity" : false,
+																			"maxDepenetrationVelocity" : 10,
+																			"isKinematic" : true,
+																			"freezeRotation" : false,
+																			"constraints" : 0,
+																			"collisionDetectionMode" : 0,
+																			"centerOfMass" : {
+																				"x" : 0,
+																				"y" : 0,
+																				"z" : 0
+																			},
+																			"detectCollisions" : true,
+																			"position" : {
+																				"x" : 1.16793876E-06,
+																				"y" : 0.5359793,
+																				"z" : -1.52477813
+																			},
+																			"rotation" : {
+																				"x" : 0.4999997,
+																				"y" : 0.5000002,
+																				"z" : -0.500000358,
+																				"w" : -0.499999821
+																			},
+																			"interpolation" : 0,
+																			"solverIterations" : 6,
+																			"sleepThreshold" : 0.005,
+																			"maxAngularVelocity" : 7,
+																			"solverVelocityIterations" : 1
+																		},{
+																			"__type" : "UnityEngine.BoxCollider,UnityEngine.PhysicsModule",
+																			"_ES3Ref" : "4428970880547239393",
+																			"goID" : "6426028105437477600",
+																			"center" : {
+																				"x" : -0.05648727,
+																				"y" : 0.483800918,
+																				"z" : 0
+																			},
+																			"size" : {
+																				"x" : 1.11297345,
+																				"y" : 0.8804666,
+																				"z" : 1
+																			},
+																			"enabled" : false,
+																			"isTrigger" : true,
+																			"contactOffset" : 0.01,
+																			"material" : null
+																		}
+																	]
+																}
+															],
+															"components" : [
+																{
+																	"__type" : "Transform",
+																	"_ES3Ref" : "4456061980334391494",
+																	"goID" : "4917982994285177164",
+																	"parent" : {
+																		"_ES3Ref" : "2290080675913827409"
+																	},
+																	"localPosition" : {
+																		"x" : 0,
+																		"y" : 0,
+																		"z" : 0
+																	},
+																	"localRotation" : {
+																		"x" : 0,
+																		"y" : 1,
+																		"z" : 1.15108236E-07,
+																		"w" : 5.095516E-07
+																	},
+																	"localScale" : {
+																		"x" : 1,
+																		"y" : 1,
+																		"z" : 1
+																	},
+																	"siblingIndex" : 0
+																},{
+																	"__type" : "UnityEngine.MeshCollider,UnityEngine.PhysicsModule",
+																	"_ES3Ref" : "746326320972078322",
+																	"goID" : "4917982994285177164",
+																	"sharedMesh" : {
+																		"_ES3Ref" : "4733636916890928893"
+																	},
+																	"convex" : false,
+																	"enabled" : true,
+																	"isTrigger" : false,
+																	"contactOffset" : 0.01,
+																	"material" : null
+																},{
+																	"__type" : "ES3Internal.ES3Prefab,Assembly-CSharp-firstpass"
+																}
+															]
+														}
+													],
+													"components" : [
+														{
+															"__type" : "Transform",
+															"_ES3Ref" : "2290080675913827409",
+															"goID" : "2188882031577147169",
+															"parent" : {
+																"_ES3Ref" : "6716461479702066941"
+															},
+															"localPosition" : {
+																"x" : -9.094947E-15,
+																"y" : 1.072,
+																"z" : 1.18702644E-06
+															},
+															"localRotation" : {
+																"x" : 0,
+																"y" : 0,
+																"z" : 0,
+																"w" : 1
+															},
+															"localScale" : {
+																"x" : 1,
+																"y" : 1,
+																"z" : 1
+															},
+															"siblingIndex" : 3
+														},{
+															"__type" : "UnityEngine.Rigidbody,UnityEngine.PhysicsModule",
+															"_ES3Ref" : "8945109500234929676",
+															"goID" : "2188882031577147169",
+															"velocity" : {
+																"x" : 0,
+																"y" : 0,
+																"z" : 0
+															},
+															"angularVelocity" : {
+																"x" : 0,
+																"y" : 0,
+																"z" : 0
+															},
+															"drag" : 0,
+															"angularDrag" : 0.05,
+															"mass" : 1,
+															"useGravity" : false,
+															"maxDepenetrationVelocity" : 10,
+															"isKinematic" : true,
+															"freezeRotation" : false,
+															"constraints" : 0,
+															"collisionDetectionMode" : 0,
+															"centerOfMass" : {
+																"x" : 0,
+																"y" : 0,
+																"z" : 0
+															},
+															"detectCollisions" : true,
+															"position" : {
+																"x" : 1.18702644E-06,
+																"y" : 0.6242499,
+																"z" : -1.216943
+															},
+															"rotation" : {
+																"x" : -0.6184495,
+																"y" : 0.342812181,
+																"z" : -0.6184495,
+																"w" : 0.342812181
+															},
+															"interpolation" : 0,
+															"solverIterations" : 6,
+															"sleepThreshold" : 0.005,
+															"maxAngularVelocity" : 7,
+															"solverVelocityIterations" : 1
+														},{
+															"__type" : "UnityEngine.BoxCollider,UnityEngine.PhysicsModule",
+															"_ES3Ref" : "7513611346461877183",
+															"goID" : "2188882031577147169",
+															"center" : {
+																"x" : 0,
+																"y" : 0.30617398,
+																"z" : 0
+															},
+															"size" : {
+																"x" : 1,
+																"y" : 0.5373236,
+																"z" : 1
+															},
+															"enabled" : false,
+															"isTrigger" : true,
+															"contactOffset" : 0.01,
+															"material" : null
+														}
+													]
+												}
+											],
+											"components" : [
+												{
+													"__type" : "Transform",
+													"_ES3Ref" : "6716461479702066941",
+													"goID" : "4625036520853958226",
+													"parent" : {
+														"_ES3Ref" : "7474729774956127646"
+													},
+													"localPosition" : {
+														"x" : 0,
+														"y" : 0,
+														"z" : 0
+													},
+													"localRotation" : {
+														"x" : 0,
+														"y" : 0,
+														"z" : -2.98023188E-08,
+														"w" : 1
+													},
+													"localScale" : {
+														"x" : 1,
+														"y" : 1,
+														"z" : 1
+													},
+													"siblingIndex" : 0
+												},{
+													"__type" : "UnityEngine.MeshCollider,UnityEngine.PhysicsModule",
+													"_ES3Ref" : "5830463826808415108",
+													"goID" : "4625036520853958226",
+													"sharedMesh" : {
+														"_ES3Ref" : "7216599427120861738"
+													},
+													"convex" : false,
+													"enabled" : true,
+													"isTrigger" : false,
+													"contactOffset" : 0.01,
+													"material" : null
+												},{
+													"__type" : "MeshFilter",
+													"_ES3Ref" : "6257077086828953079",
+													"goID" : "4625036520853958226",
+													"sharedMesh" : {
+														"_ES3Ref" : "7216599427120861738"
+													}
+												},{
+													"__type" : "ES3Internal.ES3Prefab,Assembly-CSharp-firstpass"
+												}
+											]
+										}
+									],
+									"components" : [
+										{
+											"__type" : "Transform",
+											"_ES3Ref" : "7474729774956127646",
+											"goID" : "4720567513527018709",
+											"parent" : {
+												"_ES3Ref" : "4366034897833808474"
+											},
+											"localPosition" : {
+												"x" : 0.08827019,
+												"y" : 0.30783537,
+												"z" : 0
+											},
+											"localRotation" : {
+												"x" : 0,
+												"y" : 0,
+												"z" : -0.275637329,
+												"w" : 0.961261749
+											},
+											"localScale" : {
+												"x" : 1,
+												"y" : 1,
+												"z" : 1
+											},
+											"siblingIndex" : 2
+										},{
+											"__type" : "UnityEngine.Rigidbody,UnityEngine.PhysicsModule",
+											"_ES3Ref" : "6910414292882691814",
+											"goID" : "4720567513527018709",
+											"velocity" : {
+												"x" : 0,
+												"y" : 0,
+												"z" : 0
+											},
+											"angularVelocity" : {
+												"x" : 0,
+												"y" : 0,
+												"z" : 0
+											},
+											"drag" : 0,
+											"angularDrag" : 0.05,
+											"mass" : 1,
+											"useGravity" : false,
+											"maxDepenetrationVelocity" : 10,
+											"isKinematic" : true,
+											"freezeRotation" : false,
+											"constraints" : 0,
+											"collisionDetectionMode" : 0,
+											"centerOfMass" : {
+												"x" : 0,
+												"y" : 0,
+												"z" : 0
+											},
+											"detectCollisions" : true,
+											"position" : {
+												"x" : 0,
+												"y" : 1.19232333,
+												"z" : -0.30783537
+											},
+											"rotation" : {
+												"x" : -0.6184495,
+												"y" : 0.342812181,
+												"z" : -0.6184495,
+												"w" : 0.342812181
+											},
+											"interpolation" : 0,
+											"solverIterations" : 6,
+											"sleepThreshold" : 0.005,
+											"maxAngularVelocity" : 7,
+											"solverVelocityIterations" : 1
+										},{
+											"__type" : "UnityEngine.BoxCollider,UnityEngine.PhysicsModule",
+											"_ES3Ref" : "4153211487251119756",
+											"goID" : "4720567513527018709",
+											"center" : {
+												"x" : -0.05648727,
+												"y" : 0.483800918,
+												"z" : 0
+											},
+											"size" : {
+												"x" : 1.11297345,
+												"y" : 0.8804666,
+												"z" : 1
+											},
+											"enabled" : false,
+											"isTrigger" : true,
+											"contactOffset" : 0.01,
+											"material" : null
+										}
+									]
+								}
+							],
+							"components" : [
+								{
+									"__type" : "Transform",
+									"_ES3Ref" : "4366034897833808474",
+									"goID" : "5511798225703153782",
+									"parent" : {
+										"_ES3Ref" : "8899051752068623027"
+									},
+									"localPosition" : {
+										"x" : 0,
+										"y" : 0,
+										"z" : 0
+									},
+									"localRotation" : {
+										"x" : 0,
+										"y" : 0,
+										"z" : 0,
+										"w" : 1
+									},
+									"localScale" : {
+										"x" : 1,
+										"y" : 1,
+										"z" : 1
+									},
+									"siblingIndex" : 0
+								},{
+									"__type" : "UnityEngine.MeshCollider,UnityEngine.PhysicsModule",
+									"_ES3Ref" : "4349809025970706394",
+									"goID" : "5511798225703153782",
+									"sharedMesh" : {
+										"_ES3Ref" : "4733636916890928893"
+									},
+									"convex" : false,
+									"enabled" : true,
+									"isTrigger" : false,
+									"contactOffset" : 0.01,
+									"material" : null
+								},{
+									"__type" : "ES3Internal.ES3Prefab,Assembly-CSharp-firstpass"
+								}
+							]
+						}
+					],
+					"components" : [
+						{
+							"__type" : "Transform",
+							"_ES3Ref" : "8899051752068623027",
+							"goID" : "915307618341281138",
+							"parent" : {
+								"_ES3Ref" : "5438918685991143375"
+							},
+							"localPosition" : {
+								"x" : 0,
+								"y" : 0,
+								"z" : 0
+							},
+							"localRotation" : {
+								"x" : -0.5,
+								"y" : 0.5,
+								"z" : -0.5,
+								"w" : 0.5
+							},
+							"localScale" : {
+								"x" : 1,
+								"y" : 1,
+								"z" : 1
+							},
+							"siblingIndex" : 3
+						},{
+							"__type" : "UnityEngine.BoxCollider,UnityEngine.PhysicsModule",
+							"_ES3Ref" : "2161890485359989260",
+							"goID" : "915307618341281138",
+							"center" : {
+								"x" : 0,
+								"y" : 0.2615015,
+								"z" : 0.0589041
+							},
+							"size" : {
+								"x" : 1,
+								"y" : 0.477012873,
+								"z" : 0.862129569
+							},
+							"enabled" : false,
+							"isTrigger" : true,
+							"contactOffset" : 0.01,
+							"material" : null
+						},{
+							"__type" : "UnityEngine.Rigidbody,UnityEngine.PhysicsModule",
+							"_ES3Ref" : "1601694294306181785",
+							"goID" : "915307618341281138",
+							"velocity" : {
+								"x" : 0,
+								"y" : 0,
+								"z" : 0
+							},
+							"angularVelocity" : {
+								"x" : 0,
+								"y" : 0,
+								"z" : 0
+							},
+							"drag" : 0,
+							"angularDrag" : 0.05,
+							"mass" : 1,
+							"useGravity" : false,
+							"maxDepenetrationVelocity" : 10,
+							"isKinematic" : true,
+							"freezeRotation" : false,
+							"constraints" : 0,
+							"collisionDetectionMode" : 0,
+							"centerOfMass" : {
+								"x" : 0,
+								"y" : 0,
+								"z" : 0
+							},
+							"detectCollisions" : true,
+							"position" : {
+								"x" : 0,
+								"y" : 1.28059351,
+								"z" : 0
+							},
+							"rotation" : {
+								"x" : -0.5,
+								"y" : 0.5,
+								"z" : -0.5,
+								"w" : 0.5
+							},
+							"interpolation" : 0,
+							"solverIterations" : 6,
+							"sleepThreshold" : 0.005,
+							"maxAngularVelocity" : 7,
+							"solverVelocityIterations" : 1
+						}
+					]
+				}
+			],
+			"components" : [
+				{
+					"__type" : "Transform",
+					"_ES3Ref" : "5438918685991143375",
+					"goID" : "8438538780464233926",
+					"parent" : null,
+					"localPosition" : {
+						"x" : 0,
+						"y" : 1.28059351,
+						"z" : 0
+					},
+					"localRotation" : {
+						"x" : 0,
+						"y" : 0,
+						"z" : 0,
+						"w" : 1
+					},
+					"localScale" : {
+						"x" : 1,
+						"y" : 1,
+						"z" : 1
+					},
+					"siblingIndex" : 30
+				},{
+					"__type" : "UnityEngine.MeshCollider,UnityEngine.PhysicsModule",
+					"_ES3Ref" : "1915162166729653746",
+					"goID" : "8438538780464233926",
+					"sharedMesh" : {
+						"_ES3Ref" : "2899780039009684382"
+					},
+					"convex" : false,
+					"enabled" : true,
+					"isTrigger" : false,
+					"contactOffset" : 0.01,
+					"material" : null
+				},{
+					"__type" : "ES3Internal.ES3Prefab,Assembly-CSharp-firstpass"
+				}
+			]
+		}
+	}
+}

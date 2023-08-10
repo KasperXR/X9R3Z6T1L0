@@ -1,0 +1,781 @@
+{
+    "name": "StartPart",
+    "tag": "Untagged",
+    "layer": 3,
+    "isStatic": false,
+    "localPosition": {
+        "x": 0.0,
+        "y": 3.3805935382843019,
+        "z": 0.0
+    },
+    "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+    },
+    "localScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+    },
+    "activeSelf": true,
+    "isRoot": false,
+    "components": [],
+    "meshRenderers": [],
+    "children": [
+        {
+            "name": "model-startPart-curved",
+            "tag": "Untagged",
+            "layer": 0,
+            "isStatic": false,
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0,
+                "w": 0.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "activeSelf": false,
+            "isRoot": false,
+            "components": [],
+            "meshRenderers": [
+                {
+                    "meshAssetPath": "Assets/Resources/New models/model-startPart-curved.fbx",
+                    "materialGUIDs": [
+                        "ec45c40da220c6645a9c9014137bf80e"
+                    ]
+                }
+            ],
+            "children": []
+        },
+        {
+            "name": "model-startPart-standard",
+            "tag": "Untagged",
+            "layer": 0,
+            "isStatic": false,
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "activeSelf": true,
+            "isRoot": false,
+            "components": [],
+            "meshRenderers": [
+                {
+                    "meshAssetPath": "Assets/Resources/New models/model-startPart-standard.fbx",
+                    "materialGUIDs": [
+                        "95953cf771f21a0459c809cb927bf837"
+                    ]
+                }
+            ],
+            "children": []
+        },
+        {
+            "name": "Origin_nuts",
+            "tag": "Untagged",
+            "layer": 0,
+            "isStatic": false,
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.014999999664723874
+            },
+            "localRotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "activeSelf": true,
+            "isRoot": false,
+            "components": [],
+            "meshRenderers": [
+                {
+                    "meshAssetPath": "Assets/Resources/New models/BoltCover_SingleRing_StartingPlate_LowPoly.fbx",
+                    "materialGUIDs": [
+                        ""
+                    ]
+                }
+            ],
+            "children": []
+        },
+        {
+            "name": "SnapPoint",
+            "tag": "Untagged",
+            "layer": 3,
+            "isStatic": false,
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": -0.5,
+                "y": 0.5,
+                "z": -0.5,
+                "w": 0.5
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "activeSelf": true,
+            "isRoot": false,
+            "components": [
+                {
+                    "type": "UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"center\":{\"x\":0.0,\"y\":0.2615014910697937,\"z\":0.058904100209474567},\"size\":{\"x\":1.0,\"y\":0.47701287269592287,\"z\":0.8621295690536499},\"isEnabled\":false}"
+                },
+                {
+                    "type": "GroupingObjects, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"orbitControlsScriptName\":\"OrbitCamera\",\"replaceOrAddScriptName\":\"Replacer\"}"
+                },
+                {
+                    "type": "UnityEngine.Rigidbody, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"velocity\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"angularVelocity\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"mass\":1.0,\"isKinematic\":true,\"useGravity\":false,\"constraints\":0,\"interpolation\":0,\"collisionDetectionMode\":0,\"centerOfMass\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"inertiaTensor\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"inertiaTensorRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"drag\":0.0,\"angularDrag\":0.05000000074505806,\"maxAngularVelocity\":7.0,\"maxDepenetrationVelocity\":10.0,\"solverIterations\":6,\"solverVelocityIterations\":1}"
+                }
+            ],
+            "meshRenderers": [],
+            "children": [
+                {
+                    "name": "Straight-106",
+                    "tag": "Straight",
+                    "layer": 3,
+                    "isStatic": false,
+                    "localPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "localRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "localScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "activeSelf": true,
+                    "isRoot": false,
+                    "components": [
+                        {
+                            "type": "UnityEngine.MeshCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "jsonData": "{\"meshAssetPath\":\"Assets/3D FBX/Straight-106.fbx\",\"isConvex\":true}"
+                        },
+                        {
+                            "type": "AssignModels, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "jsonData": "{\"standardModelPrefabPath\":\"\",\"windowModelPrefabPath\":\"\",\"switchWindowScriptName\":\"Replacer\",\"rotatorScriptName\":\"RotatorScript\"}"
+                        }
+                    ],
+                    "meshRenderers": [],
+                    "children": [
+                        {
+                            "name": "model-straight-106",
+                            "tag": "Standard",
+                            "layer": 0,
+                            "isStatic": false,
+                            "localPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "localRotation": {
+                                "x": 0.70710688829422,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 0.7071067094802856
+                            },
+                            "localScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            },
+                            "activeSelf": true,
+                            "isRoot": false,
+                            "components": [],
+                            "meshRenderers": [
+                                {
+                                    "meshAssetPath": "Assets/Resources/New models/model-straight-106.fbx",
+                                    "materialGUIDs": [
+                                        "383a1716434c9dc49b8d96d1eaadc377"
+                                    ]
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "model-straight-106-window",
+                            "tag": "Window",
+                            "layer": 0,
+                            "isStatic": false,
+                            "localPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "localRotation": {
+                                "x": -0.5,
+                                "y": 0.5,
+                                "z": -0.5,
+                                "w": -0.5
+                            },
+                            "localScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            },
+                            "activeSelf": false,
+                            "isRoot": false,
+                            "components": [],
+                            "meshRenderers": [
+                                {
+                                    "meshAssetPath": "Assets/Resources/New models/model-straight-106-window.fbx",
+                                    "materialGUIDs": [
+                                        "383a1716434c9dc49b8d96d1eaadc377",
+                                        "2a1ca11bca558214f87f5492445b1839",
+                                        "5acac0db96feff742bfe81850d12bbb1",
+                                        "5acac0db96feff742bfe81850d12bbb1"
+                                    ]
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "Origin_nuts",
+                            "tag": "Untagged",
+                            "layer": 0,
+                            "isStatic": false,
+                            "localPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "localRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "localScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            },
+                            "activeSelf": true,
+                            "isRoot": false,
+                            "components": [],
+                            "meshRenderers": [
+                                {
+                                    "meshAssetPath": "Assets/Resources/New models/BoltCover_SingleRing_MidPoly.fbx",
+                                    "materialGUIDs": [
+                                        "d0aedddaa2463d2448904aad258423d5"
+                                    ]
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "SnapPoint",
+                            "tag": "Untagged",
+                            "layer": 6,
+                            "isStatic": false,
+                            "localPosition": {
+                                "x": -9.094946814441375e-15,
+                                "y": 1.0608004331588746,
+                                "z": 0.0000011870264415847487
+                            },
+                            "localRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "localScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            },
+                            "activeSelf": true,
+                            "isRoot": false,
+                            "components": [
+                                {
+                                    "type": "UnityEngine.Rigidbody, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "jsonData": "{\"velocity\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"angularVelocity\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"mass\":1.0,\"isKinematic\":true,\"useGravity\":false,\"constraints\":0,\"interpolation\":0,\"collisionDetectionMode\":0,\"centerOfMass\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"inertiaTensor\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"inertiaTensorRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"drag\":0.0,\"angularDrag\":0.05000000074505806,\"maxAngularVelocity\":7.0,\"maxDepenetrationVelocity\":10.0,\"solverIterations\":6,\"solverVelocityIterations\":1}"
+                                },
+                                {
+                                    "type": "UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "jsonData": "{\"center\":{\"x\":0.0,\"y\":0.30617398023605349,\"z\":0.0},\"size\":{\"x\":1.0,\"y\":0.5373235940933228,\"z\":1.0},\"isEnabled\":false}"
+                                },
+                                {
+                                    "type": "GroupingObjects, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "jsonData": "{\"orbitControlsScriptName\":\"OrbitCamera\",\"replaceOrAddScriptName\":\"Replacer\"}"
+                                }
+                            ],
+                            "meshRenderers": [],
+                            "children": [
+                                {
+                                    "name": "SnapPoint_nuts",
+                                    "tag": "Untagged",
+                                    "layer": 0,
+                                    "isStatic": false,
+                                    "localPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "localRotation": {
+                                        "x": 1.0,
+                                        "y": 0.0,
+                                        "z": 0.0,
+                                        "w": 0.0
+                                    },
+                                    "localScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                    },
+                                    "activeSelf": true,
+                                    "isRoot": false,
+                                    "components": [],
+                                    "meshRenderers": [
+                                        {
+                                            "meshAssetPath": "Assets/Resources/New models/BoltCover_SingleRing_MidPoly.fbx",
+                                            "materialGUIDs": [
+                                                "d0aedddaa2463d2448904aad258423d5"
+                                            ]
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "name": "Curved-45",
+                                    "tag": "Curved",
+                                    "layer": 3,
+                                    "isStatic": false,
+                                    "localPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "localRotation": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0,
+                                        "w": 1.0
+                                    },
+                                    "localScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                    },
+                                    "activeSelf": true,
+                                    "isRoot": false,
+                                    "components": [
+                                        {
+                                            "type": "UnityEngine.MeshCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                            "jsonData": "{\"meshAssetPath\":\"Assets/3D Models/dreje-45-obj.obj\",\"isConvex\":true}"
+                                        }
+                                    ],
+                                    "meshRenderers": [],
+                                    "children": [
+                                        {
+                                            "name": "model-curved-45",
+                                            "tag": "Untagged",
+                                            "layer": 0,
+                                            "isStatic": false,
+                                            "localPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "localRotation": {
+                                                "x": 0.70710688829422,
+                                                "y": 0.0,
+                                                "z": 0.0,
+                                                "w": 0.7071067094802856
+                                            },
+                                            "localScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "activeSelf": true,
+                                            "isRoot": false,
+                                            "components": [],
+                                            "meshRenderers": [
+                                                {
+                                                    "meshAssetPath": "Assets/Resources/New models/model-curved-45.fbx",
+                                                    "materialGUIDs": [
+                                                        "383a1716434c9dc49b8d96d1eaadc377"
+                                                    ]
+                                                }
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "Origin_nuts",
+                                            "tag": "Untagged",
+                                            "layer": 0,
+                                            "isStatic": false,
+                                            "localPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "localRotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0,
+                                                "w": 1.0
+                                            },
+                                            "localScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "activeSelf": true,
+                                            "isRoot": false,
+                                            "components": [],
+                                            "meshRenderers": [
+                                                {
+                                                    "meshAssetPath": "Assets/Resources/New models/BoltCover_SingleRing_MidPoly.fbx",
+                                                    "materialGUIDs": [
+                                                        "d0aedddaa2463d2448904aad258423d5"
+                                                    ]
+                                                }
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "SnapPoint",
+                                            "tag": "SlideParts",
+                                            "layer": 6,
+                                            "isStatic": false,
+                                            "localPosition": {
+                                                "x": 0.17014393210411073,
+                                                "y": 0.41076481342315676,
+                                                "z": 5.911749099141161e-7
+                                            },
+                                            "localRotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": -0.3826834559440613,
+                                                "w": 0.9238795042037964
+                                            },
+                                            "localScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "activeSelf": true,
+                                            "isRoot": false,
+                                            "components": [
+                                                {
+                                                    "type": "UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                    "jsonData": "{\"center\":{\"x\":-0.0000048737292672740299,\"y\":0.4092121720314026,\"z\":0.0},\"size\":{\"x\":1.0,\"y\":0.600550651550293,\"z\":1.0},\"isEnabled\":false}"
+                                                },
+                                                {
+                                                    "type": "GroupingObjects, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                    "jsonData": "{\"orbitControlsScriptName\":\"OrbitCamera\",\"replaceOrAddScriptName\":\"Replacer\"}"
+                                                },
+                                                {
+                                                    "type": "UnityEngine.Rigidbody, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                    "jsonData": "{\"velocity\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"angularVelocity\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"mass\":1.0,\"isKinematic\":true,\"useGravity\":false,\"constraints\":0,\"interpolation\":0,\"collisionDetectionMode\":0,\"centerOfMass\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"inertiaTensor\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"inertiaTensorRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"drag\":0.0,\"angularDrag\":0.05000000074505806,\"maxAngularVelocity\":7.0,\"maxDepenetrationVelocity\":10.0,\"solverIterations\":6,\"solverVelocityIterations\":1}"
+                                                }
+                                            ],
+                                            "meshRenderers": [],
+                                            "children": [
+                                                {
+                                                    "name": "SnapPoint_nuts",
+                                                    "tag": "Untagged",
+                                                    "layer": 0,
+                                                    "isStatic": false,
+                                                    "localPosition": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "localRotation": {
+                                                        "x": 1.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0,
+                                                        "w": 0.0
+                                                    },
+                                                    "localScale": {
+                                                        "x": 1.0,
+                                                        "y": 1.0,
+                                                        "z": 1.0
+                                                    },
+                                                    "activeSelf": true,
+                                                    "isRoot": false,
+                                                    "components": [],
+                                                    "meshRenderers": [
+                                                        {
+                                                            "meshAssetPath": "Assets/Resources/New models/BoltCover_SingleRing_MidPoly.fbx",
+                                                            "materialGUIDs": [
+                                                                "d0aedddaa2463d2448904aad258423d5"
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Straight-59",
+                                                    "tag": "Straight",
+                                                    "layer": 3,
+                                                    "isStatic": false,
+                                                    "localPosition": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "localRotation": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0,
+                                                        "w": 1.0
+                                                    },
+                                                    "localScale": {
+                                                        "x": 1.0000001192092896,
+                                                        "y": 0.9999997615814209,
+                                                        "z": 0.9999998807907105
+                                                    },
+                                                    "activeSelf": true,
+                                                    "isRoot": false,
+                                                    "components": [
+                                                        {
+                                                            "type": "UnityEngine.MeshCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                            "jsonData": "{\"meshAssetPath\":\"Assets/3D FBX/Straight-59.fbx\",\"isConvex\":true}"
+                                                        },
+                                                        {
+                                                            "type": "AssignModels, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                            "jsonData": "{\"standardModelPrefabPath\":\"\",\"windowModelPrefabPath\":\"\",\"switchWindowScriptName\":\"Replacer\",\"rotatorScriptName\":\"RotatorScript\"}"
+                                                        }
+                                                    ],
+                                                    "meshRenderers": [],
+                                                    "children": [
+                                                        {
+                                                            "name": "model-straight-59",
+                                                            "tag": "Standard",
+                                                            "layer": 0,
+                                                            "isStatic": false,
+                                                            "localPosition": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "localRotation": {
+                                                                "x": 0.5,
+                                                                "y": 0.5,
+                                                                "z": -0.5,
+                                                                "w": 0.5
+                                                            },
+                                                            "localScale": {
+                                                                "x": 1.0,
+                                                                "y": 1.0,
+                                                                "z": 1.0
+                                                            },
+                                                            "activeSelf": true,
+                                                            "isRoot": false,
+                                                            "components": [],
+                                                            "meshRenderers": [
+                                                                {
+                                                                    "meshAssetPath": "Assets/Resources/New models/model-straight-59.fbx",
+                                                                    "materialGUIDs": [
+                                                                        "383a1716434c9dc49b8d96d1eaadc377"
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "model-straight-59-window",
+                                                            "tag": "Window",
+                                                            "layer": 0,
+                                                            "isStatic": false,
+                                                            "localPosition": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "localRotation": {
+                                                                "x": -0.5,
+                                                                "y": 0.5,
+                                                                "z": -0.5,
+                                                                "w": -0.5
+                                                            },
+                                                            "localScale": {
+                                                                "x": 1.0,
+                                                                "y": 1.0,
+                                                                "z": 1.0
+                                                            },
+                                                            "activeSelf": false,
+                                                            "isRoot": false,
+                                                            "components": [],
+                                                            "meshRenderers": [
+                                                                {
+                                                                    "meshAssetPath": "Assets/Resources/New models/model-straight-59-window.fbx",
+                                                                    "materialGUIDs": [
+                                                                        "383a1716434c9dc49b8d96d1eaadc377",
+                                                                        "2a1ca11bca558214f87f5492445b1839",
+                                                                        "5299c6e2e80ce6c44867f4ffb5d32d78",
+                                                                        "5299c6e2e80ce6c44867f4ffb5d32d78"
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "Origin_nuts",
+                                                            "tag": "Untagged",
+                                                            "layer": 0,
+                                                            "isStatic": false,
+                                                            "localPosition": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "localRotation": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0,
+                                                                "w": 1.0
+                                                            },
+                                                            "localScale": {
+                                                                "x": 1.0,
+                                                                "y": 1.0,
+                                                                "z": 1.0
+                                                            },
+                                                            "activeSelf": true,
+                                                            "isRoot": false,
+                                                            "components": [],
+                                                            "meshRenderers": [
+                                                                {
+                                                                    "meshAssetPath": "Assets/Resources/New models/BoltCover_SingleRing_MidPoly.fbx",
+                                                                    "materialGUIDs": [
+                                                                        "d0aedddaa2463d2448904aad258423d5"
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "SnapPoint",
+                                                            "tag": "Untagged",
+                                                            "layer": 6,
+                                                            "isStatic": false,
+                                                            "localPosition": {
+                                                                "x": 1.1037897262866637e-9,
+                                                                "y": 0.5875999331474304,
+                                                                "z": 1.0292839647263463e-7
+                                                            },
+                                                            "localRotation": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0,
+                                                                "w": 1.0
+                                                            },
+                                                            "localScale": {
+                                                                "x": 1.0,
+                                                                "y": 1.0,
+                                                                "z": 1.0
+                                                            },
+                                                            "activeSelf": true,
+                                                            "isRoot": false,
+                                                            "components": [
+                                                                {
+                                                                    "type": "UnityEngine.Rigidbody, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                                    "jsonData": "{\"velocity\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"angularVelocity\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"mass\":1.0,\"isKinematic\":true,\"useGravity\":false,\"constraints\":0,\"interpolation\":0,\"collisionDetectionMode\":0,\"centerOfMass\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"inertiaTensor\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"inertiaTensorRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"drag\":0.0,\"angularDrag\":0.05000000074505806,\"maxAngularVelocity\":7.0,\"maxDepenetrationVelocity\":10.0,\"solverIterations\":6,\"solverVelocityIterations\":1}"
+                                                                },
+                                                                {
+                                                                    "type": "UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                                    "jsonData": "{\"center\":{\"x\":0.0,\"y\":0.26986756920814516,\"z\":0.0},\"size\":{\"x\":1.0,\"y\":0.4602648615837097,\"z\":1.0},\"isEnabled\":true}"
+                                                                },
+                                                                {
+                                                                    "type": "GroupingObjects, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                                    "jsonData": "{\"orbitControlsScriptName\":\"OrbitCamera\",\"replaceOrAddScriptName\":\"Replacer\"}"
+                                                                }
+                                                            ],
+                                                            "meshRenderers": [],
+                                                            "children": [
+                                                                {
+                                                                    "name": "SnapPoint_nuts",
+                                                                    "tag": "Untagged",
+                                                                    "layer": 0,
+                                                                    "isStatic": false,
+                                                                    "localPosition": {
+                                                                        "x": 0.0,
+                                                                        "y": 0.0,
+                                                                        "z": 0.0
+                                                                    },
+                                                                    "localRotation": {
+                                                                        "x": 1.0,
+                                                                        "y": 0.0,
+                                                                        "z": 0.0,
+                                                                        "w": 0.0
+                                                                    },
+                                                                    "localScale": {
+                                                                        "x": 1.0,
+                                                                        "y": 1.0,
+                                                                        "z": 1.0
+                                                                    },
+                                                                    "activeSelf": true,
+                                                                    "isRoot": false,
+                                                                    "components": [],
+                                                                    "meshRenderers": [
+                                                                        {
+                                                                            "meshAssetPath": "Assets/Resources/New models/BoltCover_SingleRing_MidPoly.fbx",
+                                                                            "materialGUIDs": [
+                                                                                "d0aedddaa2463d2448904aad258423d5"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
